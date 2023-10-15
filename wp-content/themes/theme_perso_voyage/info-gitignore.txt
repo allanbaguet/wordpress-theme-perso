@@ -1,0 +1,13 @@
+# ignore tout sauf le dossier wp-content
+*
+!wp-content
+
+# ignore le contenu de wp-content sauf themes
+wp-content/*
+!wp-content/themes/
+
+# ignore le contenu de theme sauf mon dossier 
+wp-content/themes/*
+!wp-content/themes/theme_perso_voyage/
+!wp-content/themes/theme_perso_voyage/*
+
