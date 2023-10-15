@@ -1,0 +1,77 @@
+/*
+Theme Name: Theme_perso_voyage
+Theme URI: https://wordpress.org/themes/themepersovoyage
+Author: Allan BAGUET
+Author URI: https://wordpress.org
+Description: Mon premier thème !
+Requires at least: WordPress 6.3
+Version: 1.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+#logo {
+    height: 15vh;
+}
+header {
+    /* height: 100vh;
+    width: 100vw; */
+    background-image: url(./img/japan-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgFooter {
+    background-image: url(./img/image_footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    /* box-shadow: 12px 12px 2px 1px rgba(#39464C00, #39464C00, #39464C); */
+    /* width: 100vw; */
+}
+
+
+#sectionColor {
+    background-color: #39464C;
+    box-shadow: 0px -20px 25px 27px #39464C;
+}
+
+footer {
+    background-color: #39464C;
+}
+
+#btnNewsletter {
+    background-color: #ED2326;
+}
+/* #imgArticle {
+    height: 80vh;
+} */
+
+.imgArticleLeft {
+    height: 20vh;
+    width: 25vw;
+    border-radius: 20px;
+}
+.imgAccueil {
+    height: 60vh;
+}
+p {
+    font-family:'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* .card-body {
+    height: 100vh;
+} */
+/* .card img {
+    height: 100vh;
+} */
